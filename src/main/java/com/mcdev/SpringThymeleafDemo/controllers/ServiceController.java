@@ -27,7 +27,7 @@ public class ServiceController {
         return serviceExchange.addStaff(staff);
     }
 
-    @GetMapping(value = "/getstaff")
+    @GetMapping(value = "/getStaff")
     public String getStaff() {
         logger.info("Getting staff");
         return "Hello Staff";
